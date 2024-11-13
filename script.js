@@ -8,7 +8,7 @@ function createPopup() {
     popup.className = 'popup';
 
     // Randomly select an image (either 'Ad 1.png' or 'Ad 2.png')
-    let randomAd = Math.random() < 0.5 ? 'Ad 1.png' : 'Ad 2.png';
+    let randomAd = Math.random() < 0.5 ? 'ad1.png' : 'ad2.png';
 
     // Create the image element
     let img = document.createElement('img');
